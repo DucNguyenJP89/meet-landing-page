@@ -16,9 +16,19 @@
 }
 
 .text-preset1 {
-  font-size: 2.5rem;
   font-weight: 900;
   line-height: 1.1;
+}
+
+.text-preset2 {
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.text-preset3 {
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: 0.25rem;
 }
 
 .text-preset4 {

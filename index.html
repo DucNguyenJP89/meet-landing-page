@@ -13,38 +13,65 @@
 <body>
   <nav class="pt-12 px-20">
     <figure>
-      <img class="mx-auto" src="./assets/logo.svg
-      " alt="meet app logo">
+      <img class="mx-auto" src="./assets/logo.svg" alt="meet app logo">
     </figure>
   </nav>
   <main>
     <section class="hero pt-16">
-      <figure class="flex justify-center pb-12 gap-x-4">
+      <figure class="flex justify-center pb-12 gap-x-4 max-w-screen overflow-hidden">
         <img class="size-3/5" src="./assets/desktop/image-hero-left.png" alt="image of people left side">
         <img class="size-3/5" src="./assets/desktop/image-hero-right.png" alt="image of people right side">
       </figure>
       <div class="hero-content text-center flex flex-col gap-y-6">
         <h1 class="px-8 text-preset1 text-slate-900">Group Chat for Everyone</h1>
-        <p class="mx-8">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
-        <div>
-          Download v1.3
-          What is it?
+        <p class="px-8 text-preset4 text-slate-600">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
+        <div class="action-buttons flex flex-col gap-y-4 mb-8">
+          <button class="bg-cyan-600 w-fit px-10 py-4 rounded-4xl text-preset5 text-white mx-auto">Download <span class="text-cyan-300">v1.3</span></button>
+          <button class="bg-purple-600 w-fit px-10 py-4 rounded-4xl text-preset5 text-white mx-auto">What is it?</button>
         </div>
       </div>
     </section>
     <section class="feature px-8">
-      01
-      Built for modern use
-      Smarter meetings, all in one place
-      Send messages, share files, show your screen, and record your meetings — all in one
-      workspace. Control who can join with invite-only team access, data encryption, and data export.
+      <div class="flex flex-col justify-center items-center my-8">
+        <div class="border-l h-20 border-slate-300"></div>
+        <div class="border border-slate-300 rounded-full px-5 py-4 text-preset5 text-slate-600">01</div>
+      </div>
+      <div class="images-grid grid grid-cols-2 gap-4 my-16">
+        <figure class="rounded-lg overflow-hidden">
+          <img src="./assets/desktop/image-woman-in-videocall.jpg" alt="woman in video call">
+        </figure>
+        <figure class="rounded-lg overflow-hidden">
+          <img src="./assets/desktop/image-women-videochatting.jpg" alt="woman in video call">
+        </figure>
+        <figure class="rounded-lg overflow-hidden">
+          <img src="./assets/desktop/image-men-in-meeting.jpg" alt="woman in video call">
+        </figure>
+        <figure class="rounded-lg overflow-hidden">
+          <img src="./assets/desktop/image-man-texting.jpg" alt="woman in video call">
+        </figure>
+      </div>
+      <div class="feature-content text-center mb-16">
+        <p class="text-preset3 uppercase text-cyan-600 text-xs">Built for modern use</p>
+        <h2 class="text-preset2 text-[2rem] mt-4">Smarter meetings, all in one place</h2>
+        <p class="text-preset4 text-base text-slate-600 mt-8">
+          Send messages, share files, show your screen, and record your meetings — all in one
+          workspace. Control who can join with invite-only team access, data encryption, and data export.
+        </p>
+      </div>
     </section>
   </main>
   <footer>
-    02
-    Experience more together
-    Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
-    Download v1.3
+    <div class="flex flex-col justify-center items-center">
+      <div class="border-l h-20 border-slate-300"></div>
+      <div class="border border-slate-300 rounded-full px-5 py-4 text-preset5 text-slate-600 bg-white relative z-10">02</div>
+    </div>
+    <div class="footer-content -mt-8 text-center py-16 px-8 bg-cover bg-[url(./assets/mobile/image-footer.jpg)] bg-no-repeat relative before:absolute before:inset-0 before:bg-cyan-600/90">
+      <div class="relative z-10">
+        <h2 class="text-preset2 text-[2rem] text-white">Experience more together</h2>
+        <p class="text-preset4 text-base text-white my-6">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
+        <button class="py-4 px-10 bg-purple-600 rounded-4xl text-preset5 text-white">Download <span class="text-purple-300">v1.3</span></button>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
